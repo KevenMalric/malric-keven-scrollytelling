@@ -1,11 +1,11 @@
 @font-face {
     font-family:"Drunk";
-    src: url('../assets/fonts/Drunk\ &\ Proud.otf') format("opentype");
+    src: url('../assets/fonts/Drunk & Proud.otf') format("opentype");
 }
 
 @font-face {
     font-family:"hug";
-    src: url("../assets/fonts/Hug\ Me\ Tight\ -\ OTF.otf") format("opentype");
+    src: url("../assets/fonts/Hug Me Tight - OTF.otf") format("opentype");
 }
 
 
@@ -24,6 +24,11 @@
 
 body {
     overflow-x: hidden;
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
 }
 
 h1 {
