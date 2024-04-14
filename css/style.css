@@ -1,11 +1,11 @@
 @font-face {
     font-family:"drunkandproud";
-    src: url("./assets/fonts/drunkandproud.otf") fromat("opentype");
+    src: url('../assets/fonts/drunkandproud.otf') format("opentype");
 }
 
 @font-face {
     font-family:"hugmetight";
-    src: url("./assets/fonts/hugmetight.otf") fromat("opentype");
+    src: url("../assets/fonts/hugmetight.otf") format("opentype");
 }
 
 
@@ -18,10 +18,14 @@
     --black: #050609;
 }
 
+* {
+    font-family: "hugmetight";
+}
+
 body {
-    font-family: "hug";
+    overflow-x: hidden;
 }
 
 h1 {
-    font-family: "drunk";
+    font-family: "drunkandproud";
 }
