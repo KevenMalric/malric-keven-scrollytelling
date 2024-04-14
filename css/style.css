@@ -1,10 +1,10 @@
 @font-face {
-    font-family:"drunk";
+    font-family:"drunkandproud";
     src: url("./assets/fonts/drunkandproud.otf") fromat("opentype");
 }
 
 @font-face {
-    font-family:"hug";
+    font-family:"hugmetight";
     src: url("./assets/fonts/hugmetight.otf") fromat("opentype");
 }
 
@@ -16,4 +16,12 @@
     --forest_green: #5c6f68;
     --blood_red: #931f1d;
     --black: #050609;
+}
+
+body {
+    font-family: "hug";
+}
+
+h1 {
+    font-family: "drunk";
 }
