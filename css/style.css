@@ -1,3 +1,8 @@
+@font-face {
+    src: url()
+}
+
+
 :root {
     --mauve: #210124;
     --bois: #8e443d;
