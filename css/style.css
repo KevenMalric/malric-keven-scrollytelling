@@ -61,10 +61,17 @@ h2 {
     text-shadow: 10px 2px 5px var(--blood_red);
 }
 
+h3{
+    position: relative;
+    margin-top: 7%;
+    font-size: 12px;
+    color: var(--ghost);
+    text-align: center;
+}
 
 .mouse {
     margin-left: 45%;
-    margin-top: 5px;
+    margin-top: 5%;
     height: 15vh;
     width: 10vw;
     background-color: var(--forest_green);
