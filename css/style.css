@@ -20,17 +20,54 @@
 
 * {
     font-family: "hug";
+    color: var(--ghost);
+    letter-spacing: 2px;
+    text-indent: 20px;
+    text-align: justify;
 }
 
 body {
     overflow-x: hidden;
+    background-color: var(--mauve);
 }
 
 header {
-    width: 100vw;
+    position: absolute;
+    display:block;
+    width: 100%;
     height: 100vh;
+    background-color: var(--mauve);
+    background-image: url(../assets/img/img_elements_visuels/arbre_brun.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 h1 {
+    margin-top: 10px;
     font-family: "Drunk";
+    font-size: 6vw;
+    letter-spacing: 6px;
+    text-align: center;
+    color: var(--blood_red);
+    text-shadow: 10px 2px 5px var(--ghost);
 }
+
+
+
+h2 {
+    font-size: 1.6vw;
+    color: var(--forest_green);
+    text-align: center;
+    text-shadow: 10px 2px 5px var(--blood_red);
+}
+
+
+.mouse {
+    margin-left: 45%;
+    margin-top: 5px;
+    height: 15vh;
+    width: 10vw;
+    background-color: var(--forest_green);
+
+    border-radius: 50px;
+ }
