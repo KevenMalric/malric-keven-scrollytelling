@@ -1,6 +1,11 @@
 @font-face {
-    font-family:
-    src: url(./)
+    font-family:"drunk";
+    src: url("./assets/fonts/drunkandproud.otf") fromat("opentype");
+}
+
+@font-face {
+    font-family:"drunk";
+    src: url("./assets/fonts/drunkandproud.otf") fromat("opentype");
 }
 
 
