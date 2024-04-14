@@ -1,11 +1,11 @@
 @font-face {
-    font-family:"drunkandproud";
-    src: url('../assets/fonts/drunkandproud.otf') format("opentype");
+    font-family:"Drunk";
+    src: url('../assets/fonts/Drunk\ &\ Proud.otf') format("opentype");
 }
 
 @font-face {
-    font-family:"hugmetight";
-    src: url("../assets/fonts/hugmetight.otf") format("opentype");
+    font-family:"hug";
+    src: url("../assets/fonts/Hug\ Me\ Tight\ -\ OTF.otf") format("opentype");
 }
 
 
@@ -19,7 +19,7 @@
 }
 
 * {
-    font-family: "hugmetight";
+    font-family: "hug";
 }
 
 body {
@@ -27,5 +27,5 @@ body {
 }
 
 h1 {
-    font-family: "drunkandproud";
+    font-family: "Drunk";
 }
