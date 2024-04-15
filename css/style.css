@@ -20,6 +20,8 @@
 
 * {
     font-family: "hug";
+    margin: 0;
+    padding: 0;
     color: var(--ghost);
     letter-spacing: 2px;
     text-indent: 20px;
@@ -80,39 +82,58 @@ h3{
  }
 
  section {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     margin: 0;
+    padding: 0;
     border: 1px solid var(--blood_red);
  }
 
  #chapitre_1 {
-    background-size: contain;
+    background-image: url(../assets/img/img_arriere_plan/lit_ch1_bg_1.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
     text-align: center;
  }
 
  #chapitre_2 {
-    background-size: contain;
+    background-image: url(../assets/img/img_arriere_plan/foret_drette.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
     text-align: center;
  }
 
  #chapitre_3 {
-    background-size: contain;
+    background-image: url(../assets/img/img_arriere_plan/bg_mauve.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
     text-align: center;
  }
  
  #chapitre_4 {
-    background-size: contain;
+    background-image: url(../assets/img/img_arriere_plan/foret_curvy.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
     text-align: center;
  }
 
  #chapitre_5 {
-    background-size: contain;
+    background-image: url(../assets/img/img_arriere_plan/parralele+forest.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
     text-align: center;
  }
 
  #chapitre_6 {
-    background-size: contain;
+    background-image: url(../assets/img/img_arriere_plan/bg_mauve.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
     text-align: center;
  }
 
