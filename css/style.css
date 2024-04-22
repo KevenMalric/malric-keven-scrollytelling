@@ -93,6 +93,7 @@ h3{
  #chapitre_1 {
     background-image: url(../assets/img/img_arriere_plan/lit_ch1_bg_1.png);
     background-position: top;
+    height: 300vh;
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
@@ -140,4 +141,11 @@ h3{
 
  .foot {
     margin-bottom: 7%;
+ }
+
+
+ .parraleleforest{
+    width: 50vw;
+
+
  }
