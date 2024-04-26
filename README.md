@@ -9,4 +9,12 @@ README.md
 
 ## Développement/programmation
 
-* Keven Malric 
+* Keven Malric
+
+# Technologies
+
+* html
+* css
+* javascript
+* [Gsap](https://gsap.com/)
+* [Scrolltigger](https://gsap.com/docs/v3/Plugins/ScrollTrigger/)
