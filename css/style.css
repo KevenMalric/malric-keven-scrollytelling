@@ -108,7 +108,7 @@ h3{
  }
 
  #chapitre_3 {
-    background-image: url(../assets/img/img_arriere_plan/bg_mauve.png);
+    background-image: url(../assets/img/img_arriere_plan/bg_jade1.png);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -132,7 +132,7 @@ h3{
  }
 
  #chapitre_6 {
-    background-image: url(../assets/img/img_arriere_plan/bg_mauve.png);
+    background-image: url(../assets/img/img_arriere_plan/bg_jade1.png);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -146,6 +146,4 @@ h3{
 
  .parraleleforest{
     width: 50vw;
-
-
  }
