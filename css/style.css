@@ -91,6 +91,7 @@ h3{
  }
 
  #chapitre_1 {
+    position: relative;
     background-image: url(../assets/img/img_arriere_plan/lit_ch1_bg_1.png);
     background-position: top;
     height: 300vh;
@@ -100,6 +101,7 @@ h3{
  }
 
  #chapitre_2 {
+    position: relative;
     background-image: url(../assets/img/img_arriere_plan/bg_chapitre_2.png);
     background-position: top;
     background-size: cover;
@@ -108,6 +110,7 @@ h3{
  }
 
  #chapitre_3 {
+    position: relative;
     background-image: url(../assets/img/img_arriere_plan/bg_jade1.png);
     background-position: top;
     background-size: cover;
@@ -116,6 +119,7 @@ h3{
  }
  
  #chapitre_4 {
+    position: relative;
     background-image: url(../assets/img/img_arriere_plan/bg_chapitre_4.png);
     background-position: top;
     background-size: cover;
@@ -124,6 +128,7 @@ h3{
  }
 
  #chapitre_5 {
+    position: relative;
     background-image: url(../assets/img/img_arriere_plan/bg_chapitre_5.png);
     background-position: top;
     background-size: cover;
@@ -132,6 +137,7 @@ h3{
  }
 
  #chapitre_6 {
+    position: relative;
     background-image: url(../assets/img/img_arriere_plan/bg_jade1.png);
     background-position: top;
     background-size: cover;
@@ -147,3 +153,114 @@ h3{
  .parraleleforest{
     width: 50vw;
  }
+
+ .arbre {
+    position: absolute;
+ }
+
+
+ /*C'EST LA FAUTE À Maïk*/
+ .arbre.noir1, .arbre.noir2,  .arbre.noir3,  .arbre.noir4,  .arbre.noir5,  .arbre.noir6,  .arbre.noir7,  .arbre.noir8,  .arbre.noir9,  .arbre.noir10,  .arbre.noir11,  .arbre.noir12,  .arbre.noir13,  .arbre.noir14,  .arbre.noir15,  .arbre.noir16,  .arbre.noir17,  .arbre.noir18,  .arbre.noir19,  .arbre.noir20, .arbre.noir21, .arbre.noir22,  .arbre.noir23,  .arbre.noir24,  .arbre.noir25,  .arbre.noir26,  .arbre.noir27,  .arbre.noir28,  .arbre.noir29,  .arbre.noir30,  .arbre.noir31,  .arbre.noir32,  .arbre.noir33,  .arbre.noir34,  .arbre.noir35,  .arbre.noir36,  .arbre.noir37,  .arbre.noir38,  .arbre.noir39,  .arbre.noir40 {
+    width: 30vw;
+    height: 30vh;
+ }
+
+ .arbre.noir1 {
+   top: -4vh;
+   right: 75vw;
+ }
+
+ .arbre.noir2 {
+    top: 5vh;
+    right: 60vw;
+  }
+
+  .arbre.noir3 {
+    top: 10vh;
+    right: 50vw;
+  }
+
+  .arbre.noir4 {
+    top: 0vh;
+    right: 40vw;
+  }
+
+  .arbre.noir5 {  
+    top: 12vh;
+    right: 35vw;
+  }
+
+  .arbre.noir6 {
+    top: 66vh;
+    right: 80vw;
+  }
+
+  .arbre.noir7 {
+    top: 60vh;
+    right: 65vw;
+  }
+
+  .arbre.noir8 {
+    top: 55vh;
+    right: 48vw;
+  }
+
+  .arbre.noir9 {
+    top: 58vh;
+    right: 36vw;
+  }
+
+  .arbre.noir10 {
+    top: 70vh;
+    right: 55vw;
+  }
+
+  .arbre.noir11 {
+    top: -2vh;
+    right: 25vw;
+  }
+
+  .arbre.noir12 {
+    top: 2vh;
+    right: 15vw;
+  }
+
+  .arbre.noir13 {
+    top: 11vh;
+    right: 5vw;
+  }
+
+  .arbre.noir14 {
+    top: 0vh;
+    right: -6vw;
+  }
+
+  .arbre.noir15 {
+    top: 70vh;
+    right: 55vw;
+  }
+
+  .arbre.noir16 {
+    top: 70vh;
+    right: 55vw;
+  }
+
+  .arbre.noir17 {
+    top: 70vh;
+    right: 55vw;
+  }
+
+  .arbre.noir18 {
+    top: 70vh;
+    right: 55vw;
+  }
+
+  .arbre.noir19 {
+    top: 70vh;
+    right: 55vw;
+  }
+
+  .arbre.noir20 {
+    top: 70vh;
+    right: 55vw;
+  }
