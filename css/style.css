@@ -156,14 +156,13 @@ h3{
 
  .arbre {
     position: absolute;
+    width: 30vw;
+    height: 30vh;
  }
 
 
  /*C'EST LA FAUTE À Maïk*/
- .arbre.noir1, .arbre.noir2,  .arbre.noir3,  .arbre.noir4,  .arbre.noir5,  .arbre.noir6,  .arbre.noir7,  .arbre.noir8,  .arbre.noir9,  .arbre.noir10,  .arbre.noir11,  .arbre.noir12,  .arbre.noir13,  .arbre.noir14,  .arbre.noir15,  .arbre.noir16,  .arbre.noir17,  .arbre.noir18,  .arbre.noir19,  .arbre.noir20, .arbre.noir21, .arbre.noir22,  .arbre.noir23,  .arbre.noir24,  .arbre.noir25,  .arbre.noir26,  .arbre.noir27,  .arbre.noir28,  .arbre.noir29,  .arbre.noir30,  .arbre.noir31,  .arbre.noir32,  .arbre.noir33,  .arbre.noir34,  .arbre.noir35,  .arbre.noir36,  .arbre.noir37,  .arbre.noir38,  .arbre.noir39,  .arbre.noir40 {
-    width: 30vw;
-    height: 30vh;
- }
+
 
  .arbre.noir1 {
    top: -4vh;
@@ -241,26 +240,128 @@ h3{
   }
 
   .arbre.noir16 {
-    top: 70vh;
-    right: 55vw;
+    top: 60vh;
+    right: 65vw;
   }
 
   .arbre.noir17 {
-    top: 70vh;
-    right: 55vw;
+    top: 68vh;
+    right: 22vw;
   }
 
   .arbre.noir18 {
-    top: 70vh;
-    right: 55vw;
+    top: 57vh;
+    right: 10vw;
   }
 
   .arbre.noir19 {
-    top: 70vh;
-    right: 55vw;
+    top: 63vh;
+    right: -2vw;
   }
 
   .arbre.noir20 {
-    top: 70vh;
-    right: 55vw;
+    top: 56vh;
+    right: -14vw;
   }
+
+  .arbre.noir21 {
+    top: -4vh;
+    right: 79vw;
+    transform: rotateY(180deg);
+  }
+ 
+  .arbre.noir22 {
+     top: 5vh;
+     right: 60vw;
+   }
+ 
+   .arbre.noir23 {
+     top: 10vh;
+     right: 50vw;
+   }
+ 
+   .arbre.noir24 {
+     top: 0vh;
+     right: 40vw;
+   }
+ 
+   .arbre.noir25 {  
+     top: 12vh;
+     right: 35vw;
+   }
+ 
+   .arbre.noir26 {
+     top: 66vh;
+     right: 80vw;
+   }
+ 
+   .arbre.noir27 {
+     top: 60vh;
+     right: 65vw;
+     
+   }
+ 
+   .arbre.noir28 {
+     top: 55vh;
+     right: 48vw;
+   }
+ 
+   .arbre.noir29 {
+     top: 58vh;
+     right: 36vw;
+   }
+ 
+   .arbre.noir30 {
+     top: 70vh;
+     right: 55vw;
+   }
+ 
+   .arbre.noir31 {
+     top: -2vh;
+     right: 25vw;
+   }
+ 
+   .arbre.noir32 {
+     top: 2vh;
+     right: 15vw;
+   }
+ 
+   .arbre.noir33 {
+     top: 11vh;
+     right: 5vw;
+   }
+ 
+   .arbre.noir34 {
+     top: 0vh;
+     right: -6vw;
+   }
+ 
+   .arbre.noir35 {
+     top: 70vh;
+     right: 55vw;
+   }
+ 
+   .arbre.noir36 {
+     top: 60vh;
+     right: 65vw;
+   }
+ 
+   .arbre.noir37 {
+     top: 68vh;
+     right: 22vw;
+   }
+ 
+   .arbre.noir38 {
+     top: 57vh;
+     right: 10vw;
+   }
+ 
+   .arbre.noir39 {
+     top: 63vh;
+     right: -2vw;
+   }
+ 
+   .arbre.noir40 {
+     top: 56vh;
+     right: -14vw;
+   }
