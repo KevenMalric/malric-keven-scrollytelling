@@ -100,7 +100,7 @@ h3{
  }
 
  #chapitre_2 {
-    background-image: url(../assets/img/img_arriere_plan/foret_drette.png);
+    background-image: url(../assets/img/img_arriere_plan/bg_chapitre_2.png);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -116,7 +116,7 @@ h3{
  }
  
  #chapitre_4 {
-    background-image: url(../assets/img/img_arriere_plan/foret_curvy.png);
+    background-image: url(../assets/img/img_arriere_plan/bg_chapitre_4.png);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -124,7 +124,7 @@ h3{
  }
 
  #chapitre_5 {
-    background-image: url(../assets/img/img_arriere_plan/parralele+forest.png);
+    background-image: url(../assets/img/img_arriere_plan/bg_chapitre_5.png);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
