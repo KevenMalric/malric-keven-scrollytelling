@@ -806,7 +806,19 @@ h3{
 }
 
 .fillep {
-  transform: rotateZ(180deg); 
+  transform: rotateZ(198deg) scale(0.2); 
+  top:21vh;
+  right: 3vw;
+}
+
+#danger {
+  position: absolute;
+}
+
+.grrr {
+  top: -26vh;
+  right:  2.2vw;
+  transform: scale(0.18);
 }
 
 #jade {
