@@ -177,6 +177,17 @@ h3{
     height: 30vh;
  }
 
+
+.walk1 {
+  position: absolute;
+  background-image: url(../assets/img/img_personnage/fille_v.png);
+  top: 9vh;
+  left:-20vw;
+  height: 75vh;
+  width: 62vh;
+  transform: scale(0.2);
+}
+
  #ch3 {
   position: absolute;
   width: 40vw;
