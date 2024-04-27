@@ -149,7 +149,7 @@ h3{
  #chapitre_6_suite {
   overflow: hidden;
   position: relative;
-  background-image: url(../assets/img/img_arriere_plan/bg_jade1.png);
+  background-image: url(../assets/img/img_arriere_plan/bg_blanc.png);
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
@@ -442,9 +442,35 @@ h3{
   height: 20vh;
 }  
 
+  #mch4 {
+  position: absolute;
+  height: 3vh;
+  width: 3vw;
+  }
+
+ .creepy1 {
+  top: 22vh;
+  right: 92vw;
+  transform: rotateZ(45deg);
+ }
+
+
+ .creepy2 {
+  top: 34vh;
+  right: 21vw;
+  transform: rotateZ(-55deg);
+ }
+
+ .creepy3 {
+  top: 85vh;
+  right: 27.2vw;
+  transform: rotateZ(60deg);
+ }
+
   .arbre.ch4.noir1 {
     top: 10vh;
     right: 89vw;
+    z-index: 1;
   }
 
   .arbre.ch4.noir2 {
@@ -596,8 +622,8 @@ h3{
 
   .arbre.ch4.noir9b {
     top: 23vh;
-    right: 17vw;
-    transform: rotateY(180deg);
+    right: 15.3vw;
+
   }
 
   .arbre.ch4.noir10b {
@@ -628,8 +654,8 @@ h3{
 
   .arbre.ch4.noir15b {
     top: 73vh;
-    right: 26vw;
-    transform: rotateY(180deg);
+    right: 24.3vw;
+  
   }
 
   .arbre.ch4.noir16b {
@@ -795,3 +821,16 @@ h3{
   transform: rotateZ(-10deg);
 }
   
+
+#ch6-5 {
+  width: 40vw;
+  height: 40vh;
+}
+
+.pa {
+  position: absolute;
+ top:30vh;
+ right: 60vh;
+}
+
+
