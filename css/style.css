@@ -146,6 +146,16 @@ h3{
     text-align: center;
  }
 
+ #chapitre_6_suite {
+  overflow: hidden;
+  position: relative;
+  background-image: url(../assets/img/img_arriere_plan/bg_jade1.png);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
  .foot {
     margin-bottom: 7%;
  }
@@ -438,7 +448,7 @@ h3{
   }
 
   .arbre.ch4.noir2 {
-    top: 15vw;
+    top: 29.3vh;
     width: 60vw;
   }
 
@@ -645,7 +655,7 @@ h3{
   }
 
   .arbre.ch4.noir20b {
-    top: 0.2v;
+    top: 0.2vh;
     right: 31vw;
     transform: rotateY(180deg);
   }
