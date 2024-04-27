@@ -403,3 +403,318 @@ h3{
     right: 60vw;
     transform: rotateY(180deg);
    }
+
+#ch4 {
+  position: absolute;
+  width: 10vw;
+  height: 20vh;
+}  
+
+  .arbre.ch4.noir1 {
+    top: 10vh;
+    right: 89vw;
+  }
+
+  .arbre.ch4.noir2 {
+    top: 15vw;
+    width: 60vw;
+  }
+
+  .arbre.ch4.noir3 {
+    top: 33vh;
+    right: 80vw;
+    transform: rotateY(180deg);
+  }
+
+  .arbre.ch4.noir4 {
+    top: 40vh;
+    right: 70vw;
+  }
+
+  .arbre.ch4.noir5 {
+    top: 55vh;
+    right: 85vw;
+  }
+
+  .arbre.ch4.noir6 {
+    top: 77vh;
+    right: 83vw;
+  }
+
+  .arbre.ch4.noir7 {
+    top: 57vh;
+    right: 73vw;
+  }
+
+  .arbre.ch4.noir8 {
+    top: 37vh;
+    right: 87vw;
+  }
+
+  .arbre.ch4.noir9 {
+    top: 23vh;
+    right: 17vw;
+    transform: rotateY(180deg);
+  }
+
+  .arbre.ch4.noir10 {
+    top: 46vh;
+    right: 23vw;
+  }
+
+  .arbre.ch4.noir11 {
+    top: 1vh;
+    right: 59vw;
+  }
+
+  .arbre.ch4.noir12 {
+    top: 3vh;
+    right: 43vw;
+    transform: rotateY(180deg);
+  }
+
+  .arbre.ch4.noir13 {
+    top: 28vh;
+    right: 2vw;
+  }
+
+  .arbre.ch4.noir14 {
+    top: 58vh;
+    right: 48vw;
+  }
+
+  .arbre.ch4.noir15 {
+    top: 73vh;
+    right: 26vw;
+    transform: rotateY(180deg);
+  }
+
+  .arbre.ch4.noir16 {
+    top: 52vh;
+    right: 34vw;
+  }
+
+  .arbre.ch4.noir17 {
+    top: 60vh;
+    right: 10vw;
+    transform: rotateY(180deg);
+  }
+
+  .arbre.ch4.noir18 {
+    top: 8vh;
+    right: 2vw;
+    transform: rotateY(180deg);
+  }
+
+  .arbre.ch4.noir19 {
+    top: 0.7vh;
+    right: 12vw;
+  }
+
+  .arbre.ch4.noir20 {
+    top: 0.2vh;
+    right: 31vw;
+    transform: rotateY(180deg);
+  }
+
+
+
+
+  .arbre.ch4.noir1b {
+    top: 10vh;
+    right: 90.5vw;
+    transform: rotateY(180deg);
+  }
+
+  .arbre.ch4.noir2b {
+    top: 29.2vh;
+    right: 60vw;
+  }
+
+  .arbre.ch4.noir3b {
+    top: 33vh;
+    right: 80vw;
+    transform: rotateY(180deg);
+  }
+
+  .arbre.ch4.noir4b {
+    top: 40vh;
+    right: 70vw;
+  }
+
+  .arbre.ch4.noir5b {
+    top: 55vh;
+    right: 85vw;
+  }
+
+  .arbre.ch4.noir6b {
+    top: 77vh;
+    right: 83vw;
+  }
+
+  .arbre.ch4.noir7b {
+    top: 57vh;
+    right: 73vw;
+  }
+
+  .arbre.ch4.noir8b {
+    top: 37vh;
+    right: 87vw;
+  }
+
+  .arbre.ch4.noir9b {
+    top: 23vh;
+    right: 17vw;
+    transform: rotateY(180deg);
+  }
+
+  .arbre.ch4.noir10b {
+    top: 46vh;
+    right: 23vw;
+  }
+
+  .arbre.ch4.noir11b {
+    top: 1vh;
+    right: 59vw;
+  }
+
+  .arbre.ch4.noir12b {
+    top: 3vh;
+    right: 43vw;
+    transform: rotateY(180deg);
+  }
+
+  .arbre.ch4.noir13b {
+    top: 28vh;
+    right: 2vw;
+  }
+
+  .arbre.ch4.noir14b {
+    top: 58vh;
+    right: 48vw;
+  }
+
+  .arbre.ch4.noir15b {
+    top: 73vh;
+    right: 26vw;
+    transform: rotateY(180deg);
+  }
+
+  .arbre.ch4.noir16b {
+    top: 52vh;
+    right: 34vw;
+  }
+
+  .arbre.ch4.noir17b {
+    top: 60vh;
+    right: 10vw;
+    transform: rotateY(180deg);
+  }
+
+  .arbre.ch4.noir18b {
+    top: 8vh;
+    right: 2vw;
+    transform: rotateY(180deg);
+  }
+
+  .arbre.ch4.noir19b {
+    top: 0.7vh;
+    right: 12vw;
+  }
+
+  .arbre.ch4.noir20b {
+    top: 0.2v;
+    right: 31vw;
+    transform: rotateY(180deg);
+  }
+
+  
+  #ch5 {
+    position: absolute;
+    width: 23vw;
+    height: 50vh;
+  }
+
+
+  .arbre.ch5.noir1 {
+    top: 5vh;
+    right: 15vw;
+  }
+
+  .arbre.ch5.noir1b {
+    top: 5vh;
+    right: 15vw;
+  }
+
+  .arbre.ch5.noir2 {
+    top: 35vh;
+    right: 80vw;
+    transform: rotateY(180deg);
+  }
+
+  .arbre.ch5.noir2b {
+    top: 35vh;
+    right: 80vw;
+    transform: rotateY(180deg);
+  }
+
+  .arbre.ch5.brun1a {
+    top: 45vh;
+    right: 0vw;
+  }
+
+  .arbre.ch5.brun1b {
+    top: 45vh;
+    right: -5vw;
+  }
+
+  .arbre.ch5.brun2a {
+    top: 3vh;
+    right: 58vw;
+    transform: rotateY(180deg);
+  }
+
+  .arbre.ch5.brun2b {
+    top: 3vh;
+    right: 58vw;
+    transform: rotateY(180deg);
+  }
+
+  #ch6 {
+    position: absolute;
+    width: 40vw;
+    height: 80vh;
+  }
+
+  .arbre.ch6.noir1 {
+    top: 3vh;
+    right: 70vw;
+    transform: rotateY(180deg);
+  }
+
+  .arbre.ch6.noir1b {
+    top: 3vh;
+    right: 65vw;
+  }
+
+  .arbre.ch6.noir1c {
+    top: 3vh;
+    right: 70vw;
+    transform: rotateY(180deg);
+  }
+
+  .arbre.ch6.noir1d {
+    top: 3vh;
+    right: 65vw;
+  }
+
+  .arbre.ch6.noir2 {
+    top: 16vh;
+    right: -8vw;
+  }
+
+  .arbre.ch6.noir2b {
+    top: 16vh;
+    right: -8vw;
+  
+  }
