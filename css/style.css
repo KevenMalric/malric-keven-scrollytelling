@@ -137,6 +137,7 @@ h3{
  }
 
  #chapitre_6 {
+    overflow: hidden;
     position: relative;
     background-image: url(../assets/img/img_arriere_plan/bg_jade1.png);
     background-position: top;
@@ -718,3 +719,48 @@ h3{
     right: -8vw;
   
   }
+
+  #chm3 {
+      position: absolute;
+      width: 30vw;
+      height: 30vh;
+   }
+
+   .monstre1 {
+    top:40vh;
+    right: 15vw;
+    transform: rotateY(180deg) rotateZ(-10deg);
+   }
+
+   .monstre2 {
+    top:35vh;
+    right: 25vw;
+    transform: rotateY(180deg) rotateZ(-10deg) scale(1.5);
+   }
+
+   .monstre3 {
+    top:135vh;
+    right: -25vw;
+    transform: rotateY(180deg) rotateZ(-10deg) scale(7);
+   }
+
+
+#jade {
+  position: absolute;
+}
+
+#hand {
+  position: absolute;
+}
+
+.fille {
+  right: 5vw;
+  bottom: 0vh;
+}
+
+.main {
+  right: 2vw;
+  bottom: -5vh;
+  transform: rotateZ(-10deg);
+}
+  
