@@ -154,10 +154,16 @@ h3{
     width: 50vw;
  }
 
- .arbre {
+ #ch2 {
     position: absolute;
     width: 30vw;
     height: 30vh;
+ }
+
+ #ch3 {
+  position: absolute;
+  width: 40vw;
+  height: 80vh;
  }
 
 
@@ -165,7 +171,7 @@ h3{
 
 
  .arbre.noir1 {
-   top: -4vh;
+   top: 2vh;
    right: 75vw;
  }
 
@@ -215,7 +221,7 @@ h3{
   }
 
   .arbre.noir11 {
-    top: -2vh;
+    top: 2vh;
     right: 25vw;
   }
 
@@ -265,7 +271,7 @@ h3{
   }
 
   .arbre.noir21 {
-    top: -4vh;
+    top: 2vh;
     right: 79vw;
     transform: rotateY(180deg);
   }
@@ -317,13 +323,14 @@ h3{
    }
  
    .arbre.noir31 {
-     top: -2vh;
+     top: 2vh;
      right: 25vw;
    }
  
    .arbre.noir32 {
      top: 2vh;
-     right: 15vw;
+     right: 19vw;
+     transform: rotateY(180deg);
    }
  
    .arbre.noir33 {
@@ -338,7 +345,8 @@ h3{
  
    .arbre.noir35 {
      top: 70vh;
-     right: 55vw;
+     right: 59vw;
+     transform: rotateY(180deg);
    }
  
    .arbre.noir36 {
@@ -348,7 +356,8 @@ h3{
  
    .arbre.noir37 {
      top: 68vh;
-     right: 22vw;
+     right: 26vw;
+     transform: rotateY(180deg);
    }
  
    .arbre.noir38 {
@@ -364,4 +373,33 @@ h3{
    .arbre.noir40 {
      top: 56vh;
      right: -14vw;
+   }
+
+   .arbre.brun1a {
+    right: -2vw;
+   }
+
+   .arbre.brun1b {
+    right: -7.9vw;
+    transform: rotateY(180deg);
+   }
+
+   .arbre.brun1c {
+    right: -2.2vw;
+   }
+
+   .arbre.brun2a {
+    top: 10vh;
+    right: 70vw;
+   }
+
+   .arbre.brun2b {
+    top: 10vh;
+    right: 70.2vw;
+   }
+
+   .arbre.brun2c {
+    top: 10vh;
+    right: 60vw;
+    transform: rotateY(180deg);
    }
