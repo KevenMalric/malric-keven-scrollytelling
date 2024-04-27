@@ -188,6 +188,16 @@ h3{
   transform: scale(0.2);
 }
 
+.walk2 {
+  position: absolute;
+  background-image: url(../assets/img/img_personnage/fille_v.png);
+  top: -32vh;
+  left: -2.5vw;
+  height: 75vh;
+  width: 62vh;
+  transform: scale(0.14);
+}
+
  #ch3 {
   position: absolute;
   width: 40vw;
