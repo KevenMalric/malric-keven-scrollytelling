@@ -801,6 +801,13 @@ h3{
     transform: rotateY(180deg) rotateZ(-10deg) scale(7);
    }
 
+#plante {
+  position: absolute;
+}
+
+.fillep {
+  transform: rotateZ(180deg); 
+}
 
 #jade {
   position: absolute;
