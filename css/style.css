@@ -1040,9 +1040,9 @@ position: absolute;
 }
 
 .wake {
-  transform: scale(1.3) rotate(-90deg) translateY(-7vw) translateX(60vh);
+  position: absolute;
+  transform: scale(1.2) rotate(-90deg) translateY(-52vw) translateX(67vh) scaleX(1.2);
   z-index: 10;
-  opacity: 20%;
 }
 
 /*cha6 suite texte*/

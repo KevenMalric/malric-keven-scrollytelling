@@ -1,3 +1,5 @@
+/*animation de call to action*/
+
 var animation = gsap.to('.mouse', {
     duration: 0.5,
     repeat: '-1',
@@ -127,3 +129,67 @@ timelinech6girl.from('.fille', {
  delay: 2,
  duration: 3
 },1);
+
+/*animation ch6 suite*/
+
+let timelinech6suite = gsap.timeline({})
+
+timelinech6suite.from('.wake',{
+opacity:0,
+delay:2,
+duration:0.005
+})
+
+timelinech6suite.to('.wake',{
+  scale: 0.135,
+  rotation: 0,
+  x: '-50.8vw',
+  y: '-88vh',
+  duration:3
+  }, '<3')
+
+timelinech6suite.from('#ch6-5',{
+  opacity:0,
+  duration:0.05
+})
+
+timelinech6suite.to('.wake',{
+  x: '-90vw',
+  duration:3
+  }, '<1')
+
+timelinech6suite.to('.no1',{
+  x: '-30vw',
+  duration:2.9
+  }, '>-2.9')
+
+timelinech6suite.to('.no2',{
+  x: '-22vw',
+  duration:2.9
+  }, '>-2.9')
+
+timelinech6suite.to('.no3',{
+  x: '-14vw',
+  duration:2.9
+  }, '>-2.9')
+
+  
+timelinech6suite.to('.no4',{
+  x: '-6vw',
+  duration:2.9
+  }, '>-2.9')
+
+timelinech6suite.to('.no5',{
+  x: '2vw',
+  duration:2.95
+  }, '>-2.95')
+
+  timelinech6suite.to('.no6',{
+    x: '10vw',
+    duration:2.95
+    }, '>-2.95')
+
+    timelinech6suite.to('.no7',{
+      x: '18vw',
+      duration:2.95
+      }, '>-2.95')
