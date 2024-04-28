@@ -874,7 +874,6 @@ h3{
   
 
 #ch6-5 {
-  display: none;
   width: 40vw;
   height: 40vh;
 }
@@ -916,4 +915,13 @@ h3{
   top: -130vh;
   right:0vw;
   transform: scale(0.5);
+}
+
+#smile {
+  position: absolute;
+}
+
+.wake {
+  transform: scale(1.5) rotate(-90deg) translateY(10vw);
+
 }
