@@ -874,6 +874,7 @@ h3{
   
 
 #ch6-5 {
+  display: none;
   width: 40vw;
   height: 40vh;
 }
@@ -898,3 +899,21 @@ h3{
   right:0vw;
 }
 
+#humide {
+  position: absolute;
+}
+
+.goutte{
+  top: 50vh;
+  right:50vw;
+}
+
+#dege {
+  position: absolute;
+}
+
+.bave {
+  top: -130vh;
+  right:0vw;
+  transform: scale(0.5);
+}
