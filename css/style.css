@@ -183,7 +183,7 @@ h3{
   position: absolute;
   background-image: url(../assets/img/img_personnage/fille_v.png);
   top: 9vh;
-  left:-100vw;
+  left:-30vw;
   height: 75vh;
   width: 62vh;
   transform: scale(0.2);
@@ -191,12 +191,21 @@ h3{
 
 .walk2 {
   position: absolute;
-  background-image: url(../assets/img/img_personnage/fille_v.png);
+  background-image: url(../assets/img/img_personnage/fille_h.png);
   top: -32vh;
-  left: -2.5vw;
-  height: 75vh;
-  width: 62vh;
+  left: -6.5vw;
+  animation-name: marche;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(26);
+  height: 1080px;
+  width: 1080px;
   transform: scale(0.14);
+}
+
+@keyframes marche {
+ from {background-position: 0 0;}
+ to {background-position: 0 -28080px;}
 }
 
 

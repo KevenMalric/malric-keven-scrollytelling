@@ -4,3 +4,103 @@ var animation = gsap.to('.mouse', {
     scale: '1.2',
     yoyo: 'true'
   });
+
+
+/* animation ch2*/
+
+let timelinech2 = gsap.timeline({repeat: -1})
+
+timelinech2.to('.walk1', {
+  x: '130vw',
+  delay:1,
+  ease: 'none',
+  duration:12
+},);
+
+
+/*animation ch3*/
+
+let timelinech3 = gsap.timeline({})
+
+timelinech3.from('.monstre1', {
+  opacity: 0,
+  delay: 1,
+  duration:2
+});
+
+timelinech3.to('.monstre1', {
+  opacity: 0,
+  duration:2
+}, '<1');
+
+timelinech3.from('.monstre2', {
+  opacity: 0,
+  duration:2
+}, '<2');
+
+timelinech3.to('.monstre2', {
+  opacity: 0,
+  duration:2
+}, '<1');
+
+
+timelinech3.from('.monstre3', {
+  x: '100vw',
+  ease: 'ease in',
+  duration:0.08
+}, '<1');
+
+/*animation ch4*/ 
+
+let timelinech4 = gsap.timeline({repeat: -1})
+timelinech4.from('.creepy1', {
+  opacity: 0,
+  delay: 2,
+  duration:3
+});
+
+timelinech4.to('.creepy1', {
+  opacity: 0,
+  duration:1
+}, '<2');
+
+timelinech4.from('.creepy2', {
+  opacity: 0,
+  duration:3
+}, '<4');
+
+timelinech4.to('.creepy2', {
+  opacity: 0,
+  duration:1
+}, '<2');
+
+timelinech4.from('.creepy3', {
+  opacity: 0,
+  duration:3
+}, '<6');
+
+timelinech4.to('.creepy3', {
+  opacity: 0,
+  duration:1
+}, '<2');
+
+/*animation ch5*/ 
+let timelinech5 = gsap.timeline({})
+timelinech5.from('.fillep', {
+  opacity: 0,
+  duration:5
+ });
+
+timelinech5.from('.grrr', {
+   opacity: 0,
+   duration:4
+  }, 1);
+
+  timelinech5.to('.grrr',{
+  scale:0.5,
+  y: '18vh',
+  ease:'ease out',
+  duration: 4
+}, '<1')
+
+
