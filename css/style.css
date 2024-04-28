@@ -200,9 +200,13 @@ h3{
 
 .cloud {
   position: absolute;
-  background-image: url(../assets/img/img_elements_visuels/cloud_v.png);
-  height: 70vw;
-  width: 70vw;
+  background-image: url(../assets/img/img_elements_visuels/cloud.png);
+  height: 50vw;
+  width: 77vw;
+  top: 15vh;
+  z-index: 4;
+  left: 12vw;
+  transform: scale(8);
 }
 
  #ch3 {
@@ -880,4 +884,17 @@ h3{
  right: 60vh;
 }
 
+#eye {
+  position: absolute;
+}
+
+.closed {
+  top: -20vh;
+  right:0vw;
+}
+
+.open {
+  top: -20vh;
+  right:0vw;
+}
 
