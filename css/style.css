@@ -818,46 +818,46 @@ h3{
       height: 30vh;
    }
 
-   .monstre1 {
-    top:40vh;
-    right: 15vw;
-    transform: rotateY(180deg) rotateZ(-10deg);
-   }
+  .monstre1 {
+  top:40vh;
+  right: 15vw;
+  transform: rotateY(180deg) rotateZ(-10deg);
+  }
 
-   .monstre2 {
-    top:35vh;
-    right: 25vw;
-    transform: rotateY(180deg) rotateZ(-10deg) scale(1.5);
-   }
+  .monstre2 {
+  top:35vh;
+  right: 25vw;
+  transform: rotateY(180deg) rotateZ(-10deg) scale(1.5);
+  }
 
-   .monstre3 {
-    top:135vh;
-    right: -25vw;
-    transform: rotateY(180deg) rotateZ(-10deg) scale(7);
-   }
+  .monstre3 {
+  top:135vh;
+  right: -25vw;
+  transform: rotateY(180deg) rotateZ(-10deg) scale(7);
+  }
 
 #plante {
-  position: absolute;
+position: absolute;
 }
 
 .fillep {
-  transform: rotateZ(198deg) scale(0.2); 
-  top:21vh;
-  right: 3vw;
-}
+transform: rotateZ(198deg) scale(0.2); 
+top:21vh;
+right: 3vw;
+} 
 
 #danger {
-  position: absolute;
+position: absolute;
 }
 
 .grrr {
-  top: -26vh;
-  right:  2.2vw;
-  transform: scale(0.18);
+top: -26vh;
+right:  2.2vw;
+transform: scale(0.18);
 }
 
 #jade {
-  position: absolute;
+position: absolute;
 }
 
 #hand {
