@@ -198,6 +198,13 @@ h3{
   transform: scale(0.14);
 }
 
+.cloud {
+  position: absolute;
+  background-image: url(../assets/img/img_elements_visuels/cloud_v.png);
+  height: 70vw;
+  width: 70vw;
+}
+
  #ch3 {
   position: absolute;
   width: 40vw;
