@@ -22,7 +22,7 @@
     font-family: "hug";
     margin: 0;
     padding: 0;
-    color: var(--ghost);
+   
 
 
 }
@@ -32,6 +32,7 @@ body {
     background-color: var(--mauve);
     height: 100vh;
     text-align: justify;
+    color: var(--ghost);
 }
 
 header {
@@ -205,9 +206,26 @@ h3{
   width: 40vw;
   height: 80vh;
  }
+/*ch1 texte*/
+
+#chapitre_1 .elle {
+  font-size: 20vh;
+  color: var(--blood_red);
+}
+
+#chapitre_1 .dort {
+  position: absolute;
+  font-size: 20vh;
+  color: var(--blood_red);
+  top: 0;
+  right: 35vw;
+}
+
 
 
  /*C'EST LA FAUTE À Maïk*/
+
+ /*arbre ch2*/
 
 .branches.brun {
   bottom: 0vh;
@@ -430,6 +448,22 @@ h3{
      right: -14vw;
    }
 
+
+/*texte ch2*/
+
+
+#chapitre_2 .text-ch2 {
+  position: absolute;
+  z-index: 12;
+  font-size: 6vh;
+  color: var(--blood_red);
+  top: 2vh;
+  text-shadow: 10px 2px 5px var(--mauve);
+  left: 13vw;
+}
+
+   /*arbre ch3*/
+
    .arbre.brun1a {
     right: -2vw;
    }
@@ -458,6 +492,45 @@ h3{
     right: 60vw;
     transform: rotateY(180deg);
    }
+
+/*monstres*/ 
+
+   #chm3 {
+    position: absolute;
+    width: 30vw;
+    height: 30vh;
+ }
+
+  .monstre1 {
+  top:40vh;
+  right: 15vw;
+  transform: rotateY(180deg) rotateZ(-10deg);
+  }
+
+  .monstre2 {
+  top:35vh;
+  right: 25vw;
+  transform: rotateY(180deg) rotateZ(-10deg) scale(1.5);
+  }
+
+  .monstre3 {
+  top:135vh;
+  right: -25vw;
+  transform: rotateY(180deg) rotateZ(-10deg) scale(7);
+  }
+
+/*texte ch3*/
+#chapitre_3 .text-ch3 {
+  position: absolute;
+  z-index: 12;
+  font-size: 3vh;
+  color: var(--ghost);
+  top: 5vh;
+  text-shadow: 6px 2px 6px var(--black);
+  left: 0vw;
+}
+
+/*ch4 monstres*/
 
 #ch4 {
   position: absolute;
@@ -489,6 +562,8 @@ h3{
   right: 27.2vw;
   transform: rotateZ(60deg);
  }
+
+/*ch4 arbres*/
 
   .arbre.ch4.noir1 {
     top: 10vh;
@@ -709,7 +784,34 @@ h3{
     transform: rotateY(180deg);
   }
 
-  
+
+/*ch4 texte*/
+
+#chapitre_4 .run {
+    position: absolute;
+    z-index: 12;
+    font-size: 3vh;
+    color: var(--black);
+    top: 5vh;
+    text-shadow: 6px 2px 6px var(--blood_red);
+    left: 19vw;
+}
+
+#chapitre_4 .big {
+  position: absolute;
+  z-index: 12;
+  font-size: 6vh;
+  color: var(--black);
+  top: 2vh;
+  text-shadow: 6px 2px 6px var(--blood_red);
+  left: 1vw;
+}
+
+
+  /*ch5*/
+
+
+
   #ch5 {
     position: absolute;
     width: 23vw;
@@ -760,7 +862,7 @@ h3{
     right: 58vw;
     transform: rotateY(180deg);
   }
-
+/*ch5 autre img*/
   .cloud {
     position: absolute;
     background-image: url(../assets/img/img_elements_visuels/cloud.png);
@@ -772,6 +874,39 @@ h3{
     transform: scale(8);
   }
 
+  #plante {
+    position: absolute;
+    }
+  
+  .fillep {
+  transform: rotateZ(198deg) scale(0.2); 
+  top:21vh;
+  right: 3vw;
+  } 
+  
+  #danger {
+  position: absolute;
+  }
+  
+  .grrr {
+  top: -26vh;
+  right:  2.2vw;
+  transform: scale(0.18);
+    }
+
+/*ch5 texte*/
+
+.oh-non {
+  position: absolute;
+  z-index: 12;
+  font-size: 6vh;
+  color: var(--ghost);
+  top: 2vh;
+  text-shadow: 7px 5px 6px var(--blood_red);
+  left: 1vw;
+}
+
+/*ch6*/
 
   #ch6 {
     position: absolute;
@@ -812,50 +947,6 @@ h3{
   
   }
 
-  #chm3 {
-      position: absolute;
-      width: 30vw;
-      height: 30vh;
-   }
-
-  .monstre1 {
-  top:40vh;
-  right: 15vw;
-  transform: rotateY(180deg) rotateZ(-10deg);
-  }
-
-  .monstre2 {
-  top:35vh;
-  right: 25vw;
-  transform: rotateY(180deg) rotateZ(-10deg) scale(1.5);
-  }
-
-  .monstre3 {
-  top:135vh;
-  right: -25vw;
-  transform: rotateY(180deg) rotateZ(-10deg) scale(7);
-  }
-
-#plante {
-position: absolute;
-}
-
-.fillep {
-transform: rotateZ(198deg) scale(0.2); 
-top:21vh;
-right: 3vw;
-} 
-
-#danger {
-position: absolute;
-}
-
-.grrr {
-top: -26vh;
-right:  2.2vw;
-transform: scale(0.18);
-}
-
 #jade {
 position: absolute;
 }
@@ -875,6 +966,21 @@ position: absolute;
   transform: rotateZ(-10deg);
 }
   
+/*ch6 texte*/
+
+#chapitre_6 .peur {
+  position: absolute;
+  z-index: 12;
+  font-size: 3vh;
+  color: var(--ghost);
+  top: 2vh;
+  text-shadow: 7px 5px 6px var(--blood_red);
+  left: 10vw;
+}
+
+
+
+/*ch6 suite*/
 
 #ch6-5 {
   width: 40vw;
@@ -928,4 +1034,15 @@ position: absolute;
   transform: scale(1.3) rotate(-90deg) translateY(-7vw) translateX(60vh);
   z-index: 10;
   opacity: 20%;
+}
+
+/*cha6 suite texte*/
+#chapitre_6_suite .bon_matin {
+  position: absolute;
+  z-index: 12;
+  font-size: 3vh;
+  color: var(--blood_red);
+  top: 2vh;
+  text-shadow: 7px 5px 6px var(--mauve);
+  left: 10vw;
 }
