@@ -84,7 +84,8 @@ timelinech4.to('.creepy3', {
   duration:1
 }, '<2');
 
-/*animation ch5*/ 
+/*animation ch5*/
+
 let timelinech5 = gsap.timeline({})
 timelinech5.from('.fillep', {
   opacity: 0,
@@ -104,3 +105,25 @@ timelinech5.from('.grrr', {
 }, '<1')
 
 
+/*animation ch6*/
+let timelinech6girl = gsap.timeline({})
+
+timelinech6girl.from('.fille', {
+  opacity: 0,
+  delay:1,
+  duration:4
+ });
+
+ timelinech6girl.from('.fille', {
+  x: '4.9999999999999999999999999999999999999999999999vw',
+  yoyo: 'true',
+  duration: 0.0009,
+  repeat: -1
+ },1);
+
+ timelinech6girl.from('.main', {
+ y:'100vh',
+ opacity:0,
+ delay: 2,
+ duration: 3
+},1);
