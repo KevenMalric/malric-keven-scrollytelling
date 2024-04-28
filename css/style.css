@@ -198,16 +198,7 @@ h3{
   transform: scale(0.14);
 }
 
-.cloud {
-  position: absolute;
-  background-image: url(../assets/img/img_elements_visuels/cloud.png);
-  height: 50vw;
-  width: 77vw;
-  top: 15vh;
-  z-index: 4;
-  left: 12vw;
-  transform: scale(8);
-}
+
 
  #ch3 {
   position: absolute;
@@ -769,6 +760,18 @@ h3{
     right: 58vw;
     transform: rotateY(180deg);
   }
+
+  .cloud {
+    position: absolute;
+    background-image: url(../assets/img/img_elements_visuels/cloud.png);
+    height: 50vw;
+    width: 77vw;
+    top: 15vh;
+    z-index: 4;
+    left: 12vw;
+    transform: scale(8);
+  }
+
 
   #ch6 {
     position: absolute;
