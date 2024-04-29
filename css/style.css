@@ -182,30 +182,36 @@ h3{
 .walk1 {
   position: absolute;
   background-image: url(../assets/img/img_personnage/fille_v.png);
-  top: 9vh;
-  left:-30vw;
-  height: 75vh;
-  width: 62vh;
+  top: -15%;
+  left:-50%;
+  height: 1080px;
+  animation-name: marche;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(25);
+  background-size: 100% -2500%;
+  aspect-ratio: 1/1;
   transform: scale(0.2);
 }
 
 .walk2 {
   position: absolute;
-  background-image: url(../assets/img/img_personnage/fille_h.png);
-  top: -32vh;
-  left: -6.5vw;
+  background-image: url(../assets/img/img_personnage/fille_v.png);
+  top: -48%;
+  left: -14%;
   animation-name: marche;
   animation-duration: 1s;
   animation-iteration-count: infinite;
-  animation-timing-function: steps(26);
+  animation-timing-function: steps(25);
+  background-size: 100% -2500%;
+  aspect-ratio: 1/1;
   height: 1080px;
-  width: 1080px;
   transform: scale(0.14);
 }
 
 @keyframes marche {
  from {background-position: 0 0;}
- to {background-position: 0 -28080px;}
+ to {background-position: 0 2500%;}
 }
 
 
@@ -872,16 +878,6 @@ h3{
     transform: rotateY(180deg);
   }
 /*ch5 autre img*/
-  .cloud {
-    position: absolute;
-    background-image: url(../assets/img/img_elements_visuels/cloud.png);
-    height: 50vw;
-    width: 77vw;
-    top: 15vh;
-    z-index: 4;
-    left: 12vw;
-    transform: scale(8);
-  }
 
   #plante {
     position: absolute;
@@ -916,6 +912,25 @@ h3{
 }
 
 /*ch6*/
+
+.cloud {
+  position: absolute;
+  background-image: url(../assets/img/img_elements_visuels/cloud.png);
+  max-width: 273px;
+  width: 40%;
+  top: 5%;
+  animation-name: flying;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(120);
+  background-size: -12000% 100% ;
+  aspect-ratio: 1/4;
+}
+
+@keyframes flying {
+  from {background-position: 0 0;}
+  to {background-position: 0 12000%;}
+}
 
   #ch6 {
     position: absolute;
