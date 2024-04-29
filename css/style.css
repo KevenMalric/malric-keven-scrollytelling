@@ -916,15 +916,16 @@ h3{
 .cloud {
   position: absolute;
   background-image: url(../assets/img/img_elements_visuels/cloud.png);
-  max-width: 273px;
   width: 40%;
-  top: 5%;
+  height: 40%;
+  top: 20%;
+  border: 5px solid red;
+  transform: rotate(90deg);
   animation-name: flying;
   animation-duration: 5s;
   animation-iteration-count: infinite;
   animation-timing-function: steps(120);
   background-size: -12000% 100% ;
-  aspect-ratio: 1/4;
 }
 
 @keyframes flying {
