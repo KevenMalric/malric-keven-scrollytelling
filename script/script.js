@@ -15,6 +15,7 @@ let timeLinetext = gsap.timeline({
   scrollTrigger: {
     trigger: "#chapitre_1",
     scrub:true,
+    markers:true,
     start: "top top",
     end:"100% 0%",
     pin: true,
@@ -210,7 +211,6 @@ let timeLineJade = gsap.timeline({
     start: "top top",
     end:"300% 0%",
     pin: true,
-    markers:true,
     scrub:true
   }
 }
@@ -222,20 +222,20 @@ timeLineJade.from('.fille', {
   delay:1,
   duration:4
  });
-
- timeLineJade.from('.fille', {
+let timelinech6girl = gsap.timeline({})
+ timelinech6girl.from('.fille', {
   x: '4.9999999999999999999999999999999999999999999999vw',
   yoyo: 'true',
   duration: 0.0009,
-  repeat:-1
- },"-=4");
-
+  repeat: -1
+ },1);
+ 
  timeLineJade.from('.main', {
  y:'100vh',
  opacity:0,
  delay: 2,
  duration: 3
-},"-=1");
+},1);
 
 /*animation ch6 suite*/
 
