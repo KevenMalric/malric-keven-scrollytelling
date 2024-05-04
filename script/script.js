@@ -88,7 +88,6 @@ let timeLineWalk1 = gsap.timeline({
 let timeLineMonstre = gsap.timeline({
   scrollTrigger: {
     trigger: "#chapitre_3",
-    scrub:true,
     start: "top top",
     end:"800% 0%",
     pin: true,
