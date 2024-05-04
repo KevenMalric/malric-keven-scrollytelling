@@ -229,7 +229,17 @@ let timelinech6girl = gsap.timeline({})
   duration: 0.0009,
   repeat: -1
  },1);
- 
+
+ timeLineJade.fromTo('.cloud', {
+  opacity: 0,
+  x:"-10vw",
+  delay:1,
+ },{
+  opacity:1,
+  x: "100vw",
+  duration:8
+ });
+
  timeLineJade.from('.main', {
  y:'100vh',
  opacity:0,
@@ -239,64 +249,92 @@ let timelinech6girl = gsap.timeline({})
 
 /*animation ch6 suite*/
 
-let timelinech6suite = gsap.timeline({})
+let timeLinebook = gsap.timeline({
+  scrollTrigger: {
+    trigger: "#chapitre_6_suite",
+    markers:true,
+    start: "5% 5%",
+    end:"300% 10%",
+    pin: true,
+    scrub:true
+  }
+}
+)
 
-timelinech6suite.from('.wake',{
+timeLinebook.from('.wake',{
 opacity:0,
 delay:2,
 duration:0.005
 })
 
-timelinech6suite.to('.wake',{
+timeLinebook.to('.wake',{
   scale: 0.135,
   rotation: 0,
   x: '-50.8vw',
   y: '-88vh',
+  skewX:-13,
+  skewY:-13,
   duration:3
   }, '<3')
 
-timelinech6suite.from('#ch6-5',{
+  timeLinebook.from('#ch6-5',{
   opacity:0,
   duration:0.05
 })
 
-timelinech6suite.to('.wake',{
-  x: '-90vw',
+timeLinebook.to('.wake',{
+  x: '-85vw',
+  skewX: -22,
+  skewY:-22,
   duration:3
   }, '<1')
 
-timelinech6suite.to('.no1',{
-  x: '-30vw',
+  timeLinebook.to('.no1',{
+  x: '-27vw',
+  skewX: -22,
+  skewY:-22,
   duration:2.9
   }, '>-2.9')
 
-timelinech6suite.to('.no2',{
+  timeLinebook.to('.no2',{
   x: '-22vw',
+  skewX: -22,
+  skewY:-22,
   duration:2.9
   }, '>-2.9')
 
-timelinech6suite.to('.no3',{
+  timeLinebook.to('.no3',{
   x: '-14vw',
+  skewX: -22,
+  skewY:-22,
   duration:2.9
   }, '>-2.9')
 
   
-timelinech6suite.to('.no4',{
+  timeLinebook.to('.no4',{
   x: '-6vw',
+  skewX: -22,
+  skewY:-22,
   duration:2.9
   }, '>-2.9')
 
-timelinech6suite.to('.no5',{
+  timeLinebook.to('.no5',{
   x: '2vw',
+  skewX: -22,
+  skewY:-22,
   duration:2.95
   }, '>-2.95')
 
-  timelinech6suite.to('.no6',{
+  timeLinebook.to('.no6',{
     x: '10vw',
+    skewX: -22,
+    skewY:-22,
     duration:2.95
     }, '>-2.95')
 
-    timelinech6suite.to('.no7',{
+    timeLinebook.to('.no7',{
       x: '18vw',
+      skewX: -22,
+      skewY:-22,
       duration:2.95
       }, '>-2.95')

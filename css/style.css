@@ -153,7 +153,7 @@ h3{
   position: relative;
   background-image: url(../assets/img/img_arriere_plan/bg_blanc.png);
   background-position: top;
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   text-align: center;
 }
@@ -1016,6 +1016,7 @@ position: absolute;
   position: absolute;
  top:30vh;
  right: 60vh;
+ transform: skewX(-13deg) skewy(-13deg);
 }
 
 #eye {
