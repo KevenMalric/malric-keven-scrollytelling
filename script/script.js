@@ -1,4 +1,5 @@
-gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(ScrollTrigger, MotionPathPlugin, TextPlugin);
+
 
 /*animation de call to action*/
 
@@ -9,50 +10,128 @@ var animation = gsap.to('.mouse', {
     yoyo: 'true'
   });
 
+/*animation ch1 */
+let timeLinetext = gsap.timeline({
+  scrollTrigger: {
+    trigger: "#chapitre_1",
+    scrub:true,
+    markers:true,
+    start: "top top",
+    end:"100% 0%",
+    pin: true,
+  }
+}
+)
+.fromTo(".elle",{
+  opacity:0,
+  
+},{
+  opacity:1,
+  duration:"5"
+})
+
+let timeLineParalaxe = gsap.timeline({
+    scrollTrigger: {
+      trigger: "#chapitre_1",
+      scrub:true,
+      start: "85% 65%",
+      end:"100% 0%",
+      pin: true,
+    }
+  }
+)
+.from(".branches.rouges", {
+  y: "150%"
+})
+
+.from(".branches.brun", {
+  y: "400%"
+},"<")
+
+.from(".branches.noir", {
+  y: "900%"
+},"<")
 
 /* animation ch2*/
 
-let timelinech2 = gsap.timeline({repeat: -1})
 
-timelinech2.to('.walk1', {
-  x: '130vw',
+
+let timeLineWalk1 = gsap.timeline({
+  scrollTrigger: {
+    trigger: "#chapitre_2",
+    scrub:true,
+    start: "10% 10%",
+    end:"800% 0%",
+    pin: true,
+  }
+}
+)
+.fromTo(".text-ch2",{
+  opacity:0,
+  
+},{
+  opacity:1,
+  duration:"3"
+})  
+
+.to('.walk1', {
+  x: '100vw',
   delay:1,
   ease: 'none',
   duration:12
-},);
+},"-=4");
+
 
 
 /*animation ch3*/
 
-let timelinech3 = gsap.timeline({})
+let timeLineMonstre = gsap.timeline({
+  scrollTrigger: {
+    trigger: "#chapitre_3",
+    scrub:true,
+    start: "top top",
+    end:"800% 0%",
+    pin: true,
+  }
+}
+)
 
-timelinech3.from('.monstre1', {
+
+timeLineMonstre.from('.monstre1', {
   opacity: 0,
   delay: 1,
   duration:2
 });
 
-timelinech3.to('.monstre1', {
+timeLineMonstre.to('.monstre1', {
   opacity: 0,
   duration:2
 }, '<1');
 
-timelinech3.from('.monstre2', {
+timeLineMonstre.from('.monstre2', {
   opacity: 0,
   duration:2
 }, '<2');
 
-timelinech3.to('.monstre2', {
+timeLineMonstre.to('.monstre2', {
   opacity: 0,
   duration:2
 }, '<1');
 
 
-timelinech3.from('.monstre3', {
+timeLineMonstre.from('.monstre3', {
   x: '100vw',
   ease: 'ease in',
   duration:0.08
-}, '<1');
+}, '<2');
+
+timeLineMonstre.fromTo(".text-ch3",{
+  opacity:0,
+  
+},{
+  opacity:1,
+  duration:"3"
+},"-=4")
 
 /*animation ch4*/ 
 

@@ -99,13 +99,14 @@ h3{
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
+    overflow: hidden;
  }
 
  #chapitre_2 {
     position: relative;
     background-image: url(../assets/img/img_arriere_plan/bg_chapitre_2.png);
     background-position: top;
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     text-align: center;
  }
@@ -182,8 +183,8 @@ h3{
 .walk1 {
   position: absolute;
   background-image: url(../assets/img/img_personnage/fille_v.png);
-  top: -15%;
-  left:-50%;
+  top: 5%;
+  left:-20%;
   height: 1080px;
   animation-name: marche;
   animation-duration: 1s;
