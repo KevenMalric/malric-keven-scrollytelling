@@ -920,7 +920,6 @@ h3{
   width: 20%;
   top: 6%;
   left: 20vw;
-  border: 5px solid red;
   animation-name: flying;
   animation-duration: 5s;
   aspect-ratio: 1/1;
