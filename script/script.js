@@ -91,10 +91,10 @@ let timeLineMonstre = gsap.timeline({
     start: "top top",
     end:"800% 0%",
     pin: true,
+    toggleActions: 'restart complete reverse reset',
   }
 }
 )
-
 
 timeLineMonstre.from('.monstre1', {
   opacity: 0,
@@ -168,25 +168,42 @@ timelinech4.to('.creepy3', {
 
 /*animation ch5*/
 
-let timelinech5 = gsap.timeline({})
-timelinech5.from('.fillep', {
+let timeLinePlante = gsap.timeline({
+  scrollTrigger: {
+    trigger: "#chapitre_5",
+    start: "top top",
+    end:"300% 0%",
+    pin: true,
+    scrub:true
+  }
+}
+)
+
+
+timeLinePlante.from('.fillep', {
   opacity: 0,
   duration:5
  });
 
-timelinech5.from('.grrr', {
+ timeLinePlante.from('.grrr', {
    opacity: 0,
    duration:4
   }, 1);
 
-  timelinech5.to('.grrr',{
+  timeLinePlante.to('.grrr',{
   scale:0.5,
   y: '18vh',
   ease:'ease out',
   duration: 4
 }, '<1')
 
-
+timeLinePlante.fromTo(".oh-non",{
+  opacity:0,
+  
+},{
+  opacity:1,
+  duration:"3"
+},"-=3")
 /*animation ch6*/
 let timelinech6girl = gsap.timeline({})
 
