@@ -1,4 +1,4 @@
-gsap.registerPlugin(ScrollTrigger, MotionPathPlugin, TextPlugin);
+gsap.registerPlugin(ScrollTrigger, MotionPathPlugin);
 
 
 /*animation de call to action*/
