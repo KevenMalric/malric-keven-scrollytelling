@@ -581,6 +581,17 @@ h3{
 
 /*ch4 arbres*/
 
+#ligne{
+width: 80%;
+}
+.suivre{
+  fill: none;
+}
+.suivre {
+  stroke: var(--black);
+  stroke-width: 10px ;
+}
+
   .arbre.ch4.noir1 {
     top: 10vh;
     right: 89vw;
