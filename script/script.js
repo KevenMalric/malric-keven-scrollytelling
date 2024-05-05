@@ -289,7 +289,6 @@ timeLinebook.fromTo(".bave", {
   opacity:1
 },{opacity:0, duration:20},"+=1")
 
-
 timeLinebook.fromTo(".close", {
   opacity:0
   }, {opacity:1, duration:5})
