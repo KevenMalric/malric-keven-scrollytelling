@@ -1093,3 +1093,8 @@ position: absolute;
   text-shadow: 7px 5px 6px var(--mauve);
   left: 10vw;
 }
+
+#eye2{
+  visibility: hidden;
+}
+

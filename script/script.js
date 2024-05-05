@@ -147,8 +147,7 @@ let timeLineWalkingJade = gsap.timeline({
 timeLineWalkingJade.to(".walk2", {
   motionPath:{
     path:".suivre",  align: ".suivre"
-  },
-  alignOrigin: [1, 1]
+  }
 })
 
 let timelinech4 = gsap.timeline({repeat: -1})
@@ -289,6 +288,21 @@ timeLinebook.fromTo(".bave", {
 timeLinebook.fromTo(".bave", {
   opacity:1
 },{opacity:0, duration:20},"+=1")
+
+
+timeLinebook.to("#eye11", {
+morphSVG:"#eye21"
+})
+timeLinebook.to("#eye12", {
+  morphSVG:"#eye22"
+  },"<")
+  timeLinebook.to("#eye13", {
+    morphSVG:"#eye23"
+    },"<")
+    timeLinebook.to("#eye14", {
+      morphSVG:"#eye24"
+      },"<")
+
 
 timeLinebook.from('.wake',{
 opacity:0,
