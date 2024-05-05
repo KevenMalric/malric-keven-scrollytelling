@@ -1,6 +1,6 @@
-gsap.registerPlugin(ScrollTrigger, MotionPathPlugin);
+gsap.registerPlugin(ScrollTrigger, MotionPathPlugin,drawSVGPlugin);
 
-
+gsap.set(0,0)
 /*animation de call to action*/
 
 var animation = gsap.to('.mouse', {
@@ -248,6 +248,8 @@ let timelinech6girl = gsap.timeline({})
 },1);
 
 /*animation ch6 suite*/
+
+
 
 let timeLinebook = gsap.timeline({
   scrollTrigger: {
