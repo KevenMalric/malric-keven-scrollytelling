@@ -147,8 +147,12 @@ let timeLineWalkingJade = gsap.timeline({
 timeLineWalkingJade.to(".walk2", {
   motionPath:{
     path:".suivre",  align: ".suivre"
-  }
+  }, duration:20
 })
+
+timeLineWalkingJade.fromTo(".run", {
+  opacity:0
+  },{opacity:1, duration:6},"-=")
 
 let timelinech4 = gsap.timeline({repeat: -1})
 timelinech4.from('.creepy1', {
@@ -181,6 +185,8 @@ timelinech4.to('.creepy3', {
   opacity: 0,
   duration:1
 }, '<2');
+
+
 
 /*animation ch5*/
 
@@ -263,6 +269,10 @@ let timelinech6girl = gsap.timeline({})
  duration: 3
 },1);
 
+timeLineJade.fromTo(".peur", {
+  opacity:0
+  },{opacity:1, duration:6},"-=5")
+
 /*animation ch6 suite*/
 
 /*gsap.set(".bave",{drawSVG:"0% 0%"});*/
@@ -308,7 +318,11 @@ timeLinebook.to("#eye12", {
 
 timeLinebook.fromTo(".close", {
   opacity:1
-  }, {opacity:0, duration:5})
+  }, {opacity:0, duration:5}) 
+
+  timeLinebook.fromTo(".bon_matin", {
+    opacity:0
+    },{opacity:1, duration:6},"-=8")
 
 timeLinebook.fromTo('.wake',{
 opacity:0,
@@ -323,6 +337,8 @@ timeLinebook.to('.wake',{
   skewY:-13,
   duration:3
   }, '<3')
+
+
 
   timeLinebook.from('#ch6-5',{
   opacity:0,
