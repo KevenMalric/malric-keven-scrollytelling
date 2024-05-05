@@ -1077,11 +1077,7 @@ position: absolute;
   position: absolute;
 }
 
-.wake {
-  position: absolute;
-  transform: scale(1.2) rotate(-90deg) translateY(-58vw) translateX(67vh) scaleX(1.2);
-  z-index: 1;
-}
+
 
 /*cha6 suite texte*/
 #chapitre_6_suite .bon_matin {
@@ -1096,5 +1092,10 @@ position: absolute;
 
 #eye2{
   visibility: hidden;
+}
+.wake {
+  position: absolute;
+  transform: scale(1.2) rotate(-90deg) translateY(-58vw) translateX(67vh) scaleX(1.2);
+  z-index: 1;
 }
 

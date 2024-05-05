@@ -290,6 +290,10 @@ timeLinebook.fromTo(".bave", {
 },{opacity:0, duration:20},"+=1")
 
 
+timeLinebook.fromTo(".close", {
+  opacity:0
+  }, {opacity:1, duration:5})
+
 timeLinebook.to("#eye11", {
 morphSVG:"#eye21"
 })
@@ -303,13 +307,13 @@ timeLinebook.to("#eye12", {
       morphSVG:"#eye24"
       },"<")
 
+timeLinebook.fromTo(".close", {
+  opacity:1
+  }, {opacity:0, duration:5})
 
-timeLinebook.from('.wake',{
+timeLinebook.fromTo('.wake',{
 opacity:0,
-delay:2,
-x: "70vw",
-duration:0.005
-})
+},{opacity:1,x: "70vw",delay:2,duration:0.005})
 
 timeLinebook.to('.wake',{
   scale: 0.135,
