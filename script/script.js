@@ -271,7 +271,7 @@ let timelinech6girl = gsap.timeline({})
 
 timeLineJade.fromTo(".peur", {
   opacity:0
-  },{opacity:1, duration:6},"-=5")
+  },{opacity:1, duration:6},"-=8")
 
 /*animation ch6 suite*/
 
