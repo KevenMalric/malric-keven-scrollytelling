@@ -248,7 +248,11 @@ let timelinech6girl = gsap.timeline({})
 
 /*animation ch6 suite*/
 
+/*gsap.set(".bave",{drawSVG:"0% 0%"});*/
 
+gsap.fromTo(".bave", {
+  drawSVG: "0% 0%"
+},{drawSVG:"0% 100%", duration:2, ease:"none",})
 
 let timeLinebook = gsap.timeline({
   scrollTrigger: {
@@ -260,11 +264,13 @@ let timeLinebook = gsap.timeline({
     scrub:true
   }
 }
-)
+) 
+
 
 timeLinebook.from('.wake',{
 opacity:0,
 delay:2,
+x: "70vw",
 duration:0.005
 })
 

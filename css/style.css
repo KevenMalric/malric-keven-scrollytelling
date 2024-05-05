@@ -1046,10 +1046,18 @@ position: absolute;
   position: absolute;
 }
 
-.bave {
-  top: -130vh;
-  right:0vw;
+#drool {
+  position: absolute;
+  bottom: -75%;
+  right:-0%;
   transform: scale(0.5);
+}
+.bave {
+  fill:transparent;
+}
+
+.bave {
+  stroke-width: 100px var(--black);
 }
 
 #smile {
@@ -1058,7 +1066,7 @@ position: absolute;
 
 .wake {
   position: absolute;
-  transform: scale(1.2) rotate(-90deg) translateY(-52vw) translateX(67vh) scaleX(1.2);
+  transform: scale(1.2) rotate(-90deg) translateY(-58vw) translateX(67vh) scaleX(1.2);
   z-index: 1;
 }
 
