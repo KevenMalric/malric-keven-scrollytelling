@@ -23,7 +23,7 @@
     margin: 0;
     padding: 0;
    
-
+border: 1px solid red
 
 }
 
@@ -582,13 +582,14 @@ h3{
 /*ch4 arbres*/
 
 #ligne{
-width: 80%;
+  transform: translateX(-8%);
+  height: 100%;
+width: 100%;
 }
 .suivre{
   fill: none;
 }
 .suivre {
-  stroke: var(--black);
   stroke-width: 10px ;
 }
 
@@ -1068,7 +1069,8 @@ position: absolute;
 }
 
 .bave {
-  stroke-width: 100px var(--black);
+  stroke:var(--black) ;
+  stroke-width:125px  ;
 }
 
 #smile {

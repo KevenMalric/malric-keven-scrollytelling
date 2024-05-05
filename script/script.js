@@ -133,6 +133,24 @@ timeLineMonstre.fromTo(".text-ch3",{
 
 /*animation ch4*/ 
 
+let timeLineWalkingJade = gsap.timeline({
+  scrollTrigger: {
+    trigger: "#chapitre_4",
+    start: "top top",
+    end:"800% 0%",
+    pin: true,
+    scrub:true
+  }
+}
+)
+
+timeLineWalkingJade.to(".walk2", {
+  motionPath:{
+    path:".suivre",  align: ".suivre"
+  },
+  alignOrigin: [1, 1]
+})
+
 let timelinech4 = gsap.timeline({repeat: -1})
 timelinech4.from('.creepy1', {
   opacity: 0,
@@ -250,9 +268,7 @@ let timelinech6girl = gsap.timeline({})
 
 /*gsap.set(".bave",{drawSVG:"0% 0%"});*/
 
-gsap.fromTo(".bave", {
-  drawSVG: "0% 0%"
-},{drawSVG:"0% 100%", duration:2, ease:"none",})
+
 
 let timeLinebook = gsap.timeline({
   scrollTrigger: {
@@ -266,6 +282,13 @@ let timeLinebook = gsap.timeline({
 }
 ) 
 
+timeLinebook.fromTo(".bave", {
+  drawSVG: "0% 0%"
+},{drawSVG:"100% 0%", duration:5, ease:"none",})
+
+timeLinebook.fromTo(".bave", {
+  opacity:1
+},{opacity:0, duration:20},"+=1")
 
 timeLinebook.from('.wake',{
 opacity:0,
