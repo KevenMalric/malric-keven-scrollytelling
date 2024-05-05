@@ -1059,7 +1059,7 @@ position: absolute;
 .wake {
   position: absolute;
   transform: scale(1.2) rotate(-90deg) translateY(-52vw) translateX(67vh) scaleX(1.2);
-  z-index: 10;
+  z-index: 1;
 }
 
 /*cha6 suite texte*/

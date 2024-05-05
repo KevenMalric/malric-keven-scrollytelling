@@ -1,6 +1,5 @@
-gsap.registerPlugin(ScrollTrigger, MotionPathPlugin,drawSVGPlugin);
+gsap.registerPlugin(ScrollTrigger, MotionPathPlugin, DrawSVGPlugin);
 
-gsap.set(0,0)
 /*animation de call to action*/
 
 var animation = gsap.to('.mouse', {
