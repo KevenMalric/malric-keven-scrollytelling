@@ -324,19 +324,20 @@ timeLinebook.fromTo(".close", {
     opacity:0
     },{opacity:1, duration:6},"-=8")
 
-timeLinebook.fromTo('.wake',{
+timeLinebook.fromTo('#surprise',{
 opacity:0,
-},{opacity:1,x: "70vw",delay:2,duration:0.005})
+},{opacity:1,x: "-135vh", y:"-315vh" ,delay:2,duration:0.005})
 
-timeLinebook.to('.wake',{
-  scale: 0.135,
+timeLinebook.to('#surprise',{
+  scaleY: 0.108,
+  scaleX:0.148,
   rotation: 0,
-  x: '-50.8vw',
-  y: '-88vh',
+  x: '-48.5vw',
+  y: '-329vh',
   skewX:-13,
   skewY:-13,
   duration:3
-  }, '<3')
+  },'<7')
 
 
 
@@ -345,8 +346,9 @@ timeLinebook.to('.wake',{
   duration:0.05
 })
 
-timeLinebook.to('.wake',{
+timeLinebook.to('#surprise',{
   x: '-85vw',
+  rotation: -10,
   skewX: -22,
   skewY:-22,
   duration:3

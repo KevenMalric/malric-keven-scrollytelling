@@ -1087,12 +1087,13 @@ position: absolute;
   left: 10vw;
 }
 
+
+.wake {
+  position: absolute;
+  transform: scale(1.2) rotate(-90deg) translateY(58vw) translateX(-67vh) scaleX(1.2);
+  z-index: 10;
+}
+
 #eye2{
   visibility: hidden;
 }
-.wake {
-  position: absolute;
-  transform: scale(1.2) rotate(-90deg) translateY(-58vw) translateX(67vh) scaleX(1.2);
-  z-index: 1;
-}
-
