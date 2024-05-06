@@ -579,9 +579,9 @@ h3{
 /*ch4 arbres*/
 
 #ligne{
-  transform: translateX(-8%);
-  height: 100%;
-width: 100%;
+  height: 100vh;
+  width: 100vw;
+  transform: translateX(-5vw);
 }
 .suivre{
   fill: none;
@@ -1090,7 +1090,7 @@ position: absolute;
 
 .wake {
   position: absolute;
-  transform: scale(1.2) rotate(-90deg) translateY(58vw) translateX(-67vh) scaleX(1.2);
+  transform: scale(1.2) rotate(-90deg) translateY(58vw) translateX(7vh) scaleX(1.2);
   z-index: 10;
 }
 

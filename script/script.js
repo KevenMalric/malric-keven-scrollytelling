@@ -304,16 +304,16 @@ timeLinebook.fromTo(".close", {
   }, {opacity:1, duration:5})
 
 timeLinebook.to("#eye11", {
-morphSVG:"#eye21"
+morphSVG:"#eye21",duration:8
 })
 timeLinebook.to("#eye12", {
-  morphSVG:"#eye22"
+  morphSVG:"#eye22",duration:8
   },"<")
   timeLinebook.to("#eye13", {
-    morphSVG:"#eye23"
+    morphSVG:"#eye23",duration:8
     },"<")
     timeLinebook.to("#eye14", {
-      morphSVG:"#eye24"
+      morphSVG:"#eye24",duration:8
       },"<")
 
 timeLinebook.fromTo(".close", {
@@ -336,7 +336,7 @@ timeLinebook.to('#surprise',{
   y: '-329vh',
   skewX:-13,
   skewY:-13,
-  duration:3
+  duration:8
   },'<7')
 
 
