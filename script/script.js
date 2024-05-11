@@ -1,5 +1,5 @@
 function loadedGSAP() {
-  gsap.registerPlugin(ScrollTrigger, MotionPathPlugin/*, DrawSVGPlugin*/);
+  gsap.registerPlugin(ScrollTrigger, MotionPathPlugin, DrawSVGPlugin);
 
   /*animation de call to action*/
 
@@ -291,8 +291,8 @@ function loadedGSAP() {
   ) 
 
   timeLinebook.fromTo(".bave", {
-    /*drawSVG: "0% 0%"*/
-  },{/*drawSVG:"100% 0%",*/ duration:5, ease:"none",})
+    drawSVG: "0% 0%"
+  },{drawSVG:"100% 0%", duration:5, ease:"none",})
 
   timeLinebook.fromTo(".bave", {
     opacity:1
@@ -303,16 +303,16 @@ function loadedGSAP() {
     }, {opacity:1, duration:5})
 
   timeLinebook.to("#eye11", {
-  /*morphSVG:"#eye21",duration:8*/
+  morphSVG:"#eye21",duration:8
   })
   timeLinebook.to("#eye12", {
-    /*morphSVG:"#eye22",duration:8*/
+    morphSVG:"#eye22",duration:8
     },"<")
     timeLinebook.to("#eye13", {
-      /*morphSVG:"#eye23",*/duration:8
+      morphSVG:"#eye23",duration:8
       },"<")
       timeLinebook.to("#eye14", {
-        /*morphSVG:"#eye24",*/duration:8
+        morphSVG:"#eye24",duration:8
         },"<")
 
   timeLinebook.fromTo(".close", {
