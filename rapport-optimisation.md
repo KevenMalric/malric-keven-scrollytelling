@@ -10,5 +10,5 @@
 
 ## Problème #3
 ### mon javascript prend trop de temps à être analysé.
-### Action concrètre : je vais éliminer les lignes vides et compresser mon javascript pour qu'il prenne le moin de lignes possible.
+### Action concrètre : je vais éliminer les lignes vides et compresser mon javascript pour qu'il prenne le moins de lignes possible.
 
