@@ -1,5 +1,5 @@
 function loadedGSAP() {
-  gsap.registerPlugin(ScrollTrigger/*, MotionPathPlugin, DrawSVGPlugin*/);
+  gsap.registerPlugin(ScrollTrigger, MotionPathPlugin/*, DrawSVGPlugin*/);
 
   /*animation de call to action*/
 
@@ -15,7 +15,6 @@ function loadedGSAP() {
     scrollTrigger: {
       trigger: "#chapitre_1",
       scrub:true,
-      markers:true,
       start: "top top",
       end:"100% 0%",
       pin: true,
@@ -283,7 +282,6 @@ function loadedGSAP() {
   let timeLinebook = gsap.timeline({
     scrollTrigger: {
       trigger: "#chapitre_6_suite",
-      markers:true,
       start: "5% 5%",
       end:"300% 10%",
       pin: true,
@@ -406,7 +404,7 @@ function loadedGSAP() {
         }, '>-2.95')
 }
 
-if (window.gsap && window.ScrollTrigger) {
+if (window.gsap && window.ScrollTrigger && window.motionPath) {
   loadedGSAP();
 } 
 else {
