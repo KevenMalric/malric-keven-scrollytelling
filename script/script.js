@@ -408,8 +408,8 @@ function loadedGSAP() {
 
 if (window.gsap && window.ScrollTrigger) {
   loadedGSAP();
-} else {
-
+} 
+else {
   window.addEventListener("load", loadedGSAP);
 }
 
