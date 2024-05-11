@@ -4,3 +4,7 @@
 ### l'élément le plus large de ma page d'affichage prend 21.4s à charger.
 ### Action concrète : Je vais compresser mes images png pour réduire leur taille et si ça ne fonctionne pas, je vais les changer de format pour des images WebP. De plus, je vais minimiser mon javascript pour réduire la taille de mes textes.
 
+## Problème #2
+### Il y a des ressources qui bloquent le rendu de ma page d'affichage.
+### Selon lighthouse si j'ai url qui à du code qui n'est pas critique je peut le conserver et marquer l'url avec un defer pour éliminer le code non critique je vais donc appliquer defer à trois url qui ont un url menant à la librairie gsap de base, la section scrollTrigger et motionPath respectivement, car il sont la cause de la majorité du code inutilisé.
+
