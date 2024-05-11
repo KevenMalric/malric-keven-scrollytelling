@@ -275,7 +275,7 @@ function loadedGSAP() {
 
   /*animation ch6 suite*/
 
-  /*gsap.set(".bave",{drawSVG:"0% 0%"});*/
+  gsap.set(".bave",{drawSVG:"0% 0%"});
 
 
 
