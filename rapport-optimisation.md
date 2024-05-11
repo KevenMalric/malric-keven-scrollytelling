@@ -2,7 +2,7 @@
 [Page Speed Insights - Rapport du 11 mai 2024, 14:38:34](https://pagespeed.web.dev/analysis/https-keven-tim-momo-com/yn6mdgjuta?form_factor=mobile)
 ## Problème #1
 ### l'élément le plus large de ma page d'affichage prend 21.4s à charger.
-### Action concrète : Je vais compresser mes images png pour réduire leur taille avec action photoshop. Si ça ne fonctionne pas, je vais les changer de format pour des images WebP. De plus, je vais minimiser mon javascript pour réduire la taille de mes textes.
+### Action concrète : Je vais compresser mes images png pour réduire leur taille avec le site tinypng.com. Si ça ne fonctionne pas, je vais les changer de format pour des images WebP. De plus, je vais minimiser la taille de mon h3 qui semble avoir le plus de contenue selon le diagnostique de pagespeed insighs.
 
 ## Problème #2
 ### Il y a des ressources qui bloquent le rendu de ma page d'affichage.
