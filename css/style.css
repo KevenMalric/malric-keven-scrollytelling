@@ -156,6 +156,8 @@ h3{
 }
 
  .foot {
+    font-size: 1.4rem;
+    padding: 2%;
     margin-bottom: 7%;
  }
 
@@ -472,7 +474,8 @@ h3{
   color: var(--blood_red);
   top: 2vh;
   text-shadow: 10px 2px 5px var(--mauve);
-  left: 13vw;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
    /*arbre ch3*/
@@ -540,7 +543,8 @@ h3{
   color: var(--ghost);
   top: 5vh;
   text-shadow: 6px 2px 6px var(--black);
-  left: 0vw;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 /*ch4 monstres*/
@@ -918,7 +922,8 @@ h3{
   color: var(--ghost);
   top: 2vh;
   text-shadow: 7px 5px 6px var(--blood_red);
-  left: 1vw;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 /*ch6*/
@@ -1009,7 +1014,8 @@ position: absolute;
   color: var(--ghost);
   top: 2vh;
   text-shadow: 7px 5px 6px var(--blood_red);
-  left: 10vw;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 
@@ -1084,7 +1090,8 @@ position: absolute;
   color: var(--blood_red);
   top: 2vh;
   text-shadow: 7px 5px 6px var(--mauve);
-  left: 10vw;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 
