@@ -10,5 +10,5 @@
 
 ## Problème #3
 ### mon javascript prend trop de temps à être analysé.
-### Action concrètre : je vais éliminer les lignes vides et compresser mon javascript, de mon fichier scrip.js avec l'aide du site: [jscompress.com](https://jscompress.com), pour avoir le moins de lignes possible. je ferai de même pour mon css avec le site: [csscompressor.com](https://csscompressor.com) .
+### Action concrètre : je vais éliminer les lignes vides et compresser mon javascript, de mon fichier scrip.js avec l'aide du site: [jscompress.com](https://jscompress.com), pour avoir le moins de lignes possible. Je ferai de même pour mon css avec le site: [csscompressor.com](https://csscompressor.com) .
 
