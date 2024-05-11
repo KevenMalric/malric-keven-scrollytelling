@@ -15,3 +15,6 @@
 ### Action concrètre : je vais éliminer les lignes vides et compresser mon javascript, de mon fichier scrip.js avec l'aide du site: [jscompress.com](https://jscompress.com), pour avoir le moins de lignes possible. Je ferai de même pour mon css avec le site: [www.cleancss.com](https://www.cleancss.com/css-minify/) par bonne pratique.
 ### Résultats: J'ai éliminé tout les espace et vide de mon javascript et de mon css en utilisant les sites mentioné dans les action concrète du problème #3. Cela devrait amoidrire le temps d'exécution de mon fichier scrip.js et style.css respectivement.
 
+## Rapport projet ScrollyTelling après optimisation
+[Page Speed Insights - Rapport du 11 mai 2024, 19:25:12](https://pagespeed.web.dev/analysis/https-keven-tim-momo-com/sk08y7mpdm?form_factor=mobile)
+
